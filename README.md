@@ -5,7 +5,7 @@
 
 ### Phase1
 - [Coding](./Phase1/Coding) 
-- [Linux Administration](./Phase1/Linux Administration)
+- [Linux Administration](./Phase1/"Linux\ Administration")
 ---
 ### Phase2 
 - [Network](./Phase2/Network)
@@ -16,9 +16,9 @@
 - [Containers](./Phase3/Containers)
 ---
 ### Phase4
-- [Cloud Basics](./Phase4/Cloud Basics)
+- [Cloud Basics](./Phase4/"Cloud\ Basics")
 - [CI/CD](./Phase4/CI-CD)
-- [Infrastructure Provisioning](./Phase4/Infrastructure Provisioning)
+- [Infrastructure Provisioning](./Phase4/"Infrastructure\ Provisioning")
 ---
 ### Phase5
 - [Logs](./Phase5/Logs)
