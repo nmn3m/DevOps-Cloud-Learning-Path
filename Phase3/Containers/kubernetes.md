@@ -53,7 +53,7 @@ ___
 	-  kube proxy -> responsible for forwarding request from services to pod.
  	
 -> Master Nodes
-![cluster](clusters.PNG)
+![cluster](./Ik8s/clusters.PNG)
 - responsible to manage the worker nodes.
 - made from multiple masters.
 - need less resources than worker nodes.
@@ -75,14 +75,16 @@ ___
 		- it's cluster state only , the application data stored outside the cluster.
 	
 	#### Cluster in Production
-	![clusrerProduction](clusterProduction.PNG)
+	
+![clusrerProduction](./Ik8s/clusterProduction.PNG)
+	
 ___
 ## what is the mini kube ?
 - it is local one node for testing it contains the master processes and node processes 
 master processes like (etcd/APIserver/scheduler/controllermanager) , node processes like (kubelet/proxykube/containerruntime).
 - in brief you can say 1 Node K8S cluster.
 
-![miniKube](miniKube.PNG)
+![miniKube](./Ik8s/miniKube.PNG)
 
 - minikubes creates virtual machine  in your labtop / nodes run in this virtual box.
 
@@ -98,12 +100,12 @@ master processes like (etcd/APIserver/scheduler/controllermanager) , node proces
 ##### you should put the link to instal link.
 
 ### commands to deal with minikube 
-![[kubectlCommand.png]]
+![kubeCommand](./Ik8s/kubectlCommand.png)
 - minikube status -> to check the status of minikube does it works or not?.
-![[nodesStatus.png]]
+![nodeStatus](./Ik8s/nodesStatus.png)
 - minikube start --vm-driver="theNameOfYourHypervisor"
 - kubectl get nodes 
-![[getNodes.png]]
+![getNodes](./Ik8s/getNodes.png)
 - kubectl version -> to check the client and server version.
 
 
