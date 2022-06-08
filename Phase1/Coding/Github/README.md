@@ -292,7 +292,7 @@ if i add a commit to origin main and add another commit to local main; there is 
 ### The four areas
 #### intorduction
 ![onionsMetaphor.png](./IGit/onionsMetaphor.png)
-![masterGitOverview.png](./iGit/masterGitOverview.png)
+![masterGitOverview.png](./IGit/masterGitOverview.png)
 ![theFourArea.png](./IGit/theFourArea.png)
 
 ##### the most vip questions?
@@ -406,7 +406,7 @@ if i add a commit to origin main and add another commit to local main; there is 
 - git blame fileName --> the line belong to which commit and the author of it.
 - git diff HEAD  HEAD^2 --> show the diff between commit and past of it by two.
 
-![recapForHistorySection.png](./iGit/recapForHistorySection.png)
+![recapForHistorySection.png](./IGit/recapForHistorySection.png)
 
 ### Edit project History (fixing mistake)
 	This techniques shouldnot be used on history that have been shared.-> golden rule
